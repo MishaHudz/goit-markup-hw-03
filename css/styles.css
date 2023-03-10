@@ -1,0 +1,174 @@
+:root {
+  --primery-text-color: #434455;
+  --titel-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --secondary-accent-color: #e7e9fc;
+  --tertiary-accent-color: #f4f4fd;
+  --focus-hover-color: #404bbf;
+  --main-white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--primery-text-color);
+  background-color: var(--main-white);
+}
+
+.filter,
+.advantages,
+.galary,
+.team,
+.navigation,
+.contacts,
+.samples {
+  list-style-type: none;
+}
+
+.logo,
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo > .right-part {
+  color: var(--titel-text-color);
+}
+
+.navigation a {
+  text-decoration: none;
+  font-weight: 500;
+
+  color: var(--titel-text-color);
+}
+
+.contacts a {
+  font-style: normal;
+  text-decoration: none;
+
+  color: var(--primery-text-color);
+}
+
+.contacts a:hover,
+.navigation a:hover,
+.contacts a:focus,
+.navigation a:focus {
+  color: var(--focus-hover-color);
+}
+
+.navigation .current-page {
+  color: var(--focus-hover-color);
+}
+
+.hero {
+  background-color: var(--titel-text-color);
+}
+
+.hero > h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  color: var(--main-white);
+}
+
+.btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 0px;
+}
+
+.btn.primary {
+  color: var(--main-white);
+  background-color: var(--accent-color);
+}
+
+.btn.primary:hover,
+.btn.primary:focus,
+.btn.secondary:hover,
+.btn.secondary:focus {
+  background-color: var(--focus-hover-color);
+}
+
+.btn.secondary {
+  background-color: var(--tertiary-accent-color);
+  color: var(--accent-color);
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+  color: var(--main-white);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages .advantages-titel,
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--titel-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--titel-text-color);
+}
+
+.team-section {
+  background-color: var(--tertiary-accent-color);
+}
+
+.team-member {
+  background-color: var(--main-white);
+}
+
+.page-footer {
+  background-color: var(--titel-text-color);
+}
+
+.logo-right-part {
+  color: var(--tertiary-accent-color);
+}
+
+.page-footer > p {
+  color: var(--secondary-accent-color);
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--titel-text-color);
+}
